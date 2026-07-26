@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Downloads",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "View download history and status"
+            }
+          }
+        ],
+        "send": {
+          "callback": "menu:downloads"
+        }
+      }
+    ]
+  }
+]
